@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #FAFAFA;
+  --bg-white: #FFFFFF;
+  --btn-bg: #0095F6;
+  --border-color: #DBDBDB;
+  --color-text: #0095F6;
+  --color-text-one: #00376B;
+  --use-links: #8E8E8E;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+body {
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  height: 47rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 320px;
+  margin-right: 40px;
+}
+
+.instagram-login {
+  background-color: var(--bg-white);
+  width: 350px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid var(--border-color);
+  margin-top: 40px;
+}
+
+.instagram-login div {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 175px;
+  height: 51px;
+}
+
+.img-perfil {
+  border-radius: 50%;
+  width: 86px;
+  height: 86px;
+}
+
+.btn {
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--btn-bg);
+  color: var(--bg-white);
+  padding: 5px 9px;
+}
+
+.not-person-sing-up {
+  margin-top: 10px;
+  width: 350px;
+  height: 100px;
+  background-color: var(--bg-white);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: var(--use-links);
+}
+
+.download-app {
+  width: 350px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-store-download {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-store-download img {
+  width: 136px;
+  padding-left: 8px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;  
+}
+
+.links-one {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links-one a {
+  padding-left: 20px;
+  color: var(--use-links);
+}
+
+.links-two {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.links-two a {
+  padding-left: 20px;
+  color: var(--use-links);
+}
+
+.final-links {
+  margin-top: 20px;
+  color: var(--use-links);
+  font-size: 12px;
+}
+
+.final-links a {
+  color: var(--use-links);
+}
+
+@media (min-width: 300px) and (max-width: 876px) {
+  main {
+    justify-content: center;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .links-one {
+    justify-content: center;
+  }
+
+  .links-two a {
+    padding-left: 20px;
+    color: var(--use-links);
+  }
+}
+
+@media (min-width: 877px) and (max-width: 1625px) {
+  .links-one {
+    justify-content: center;
+  }
+}
