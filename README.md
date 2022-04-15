@@ -10,10 +10,11 @@ Esse projeto foi desenvolvido como desafio do Bootcamp Spread Fullstack Develope
 **Screenshots** da página:
 
 **Mobile**:
+
 <a href="https://thiagothree.github.io/instagram-login-page/"><img src="public/img/mobile-screenshot.png"></a>
 
 **Desktop**:
-<a href="https://thiagothree.github.io/instagram-login-page/"><img src="public/img/desktop-screenshot.png"></a>
 
+<a href="https://thiagothree.github.io/instagram-login-page/"><img src="public/img/desktop-screenshot.png"></a>
 
 **Link**: https://thiagothree.github.io/instagram-login-page/
